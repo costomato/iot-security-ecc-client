@@ -87,7 +87,9 @@ double altitude = 3500.25;
 
 * [nodemcu-mitm-attack](https://github.com/costomato/nodemcu-mitm-attack): A demonstration of how Man-in-the-Middle (MITM) attacks can be performed on microcontrollers. The ECC/AES project was created as a direct response to secure against such attacks.
 * [iot-security-ecc-server](https://github.com/costomato/iot-security-ecc-server): Companion server for decrypting and processing incoming data (ThingSpeak integration).
-
+* [Enhancing Trust and Security in IoT Architecture for Low-Cost Microcontroller Devices using Elliptic Curve Cryptography](https://www.researchgate.net/publication/378995928_Enhancing_Trust_and_Security_in_IoT_Architecture_for_Low-Cost_Microcontroller_Devices_using_Elliptic_Curve_Cryptography)
+  Published research detailing the architecture, design decisions, and security implications of this ECC-based IoT encryption system.
+  
 ---
 
 ## 🛡️ License
