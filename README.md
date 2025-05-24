@@ -53,7 +53,7 @@ Create a `secrets.h` file with the following structure:
 // Server ECC public key (32-byte X and Y coordinates)
 const uint8_t serverPubKeyX[32] = { /* your 32-byte X coordinate here */ };
 const uint8_t serverPubKeyY[32] = { /* your 32-byte Y coordinate here */ };
-
+```
 ---
 
 ## 🔄 Data Format (JSON)
