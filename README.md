@@ -2,13 +2,13 @@
 
 **Secure IoT Sensor Client with ECC Key Exchange and AES Encryption**
 
-This is the ESP32-based client for securely transmitting environmental sensor data (temperature, pressure, altitude) from a BPM280 sensor to a remote server using strong cryptographic techniques. Data is encrypted with AES using a shared secret derived from ECC (Elliptic Curve Cryptography), and transmitted in JSON format over HTTP.
+This is the ESP32-based client for securely transmitting environmental sensor data (temperature, pressure, altitude) from a BMP280 sensor to a remote server using strong cryptographic techniques. Data is encrypted with AES using a shared secret derived from ECC (Elliptic Curve Cryptography), and transmitted in JSON format over HTTP.
 
 ---
 
 ## 📦 Features
 
-- 🌡️ Reads data from BPM280 (temperature, pressure, altitude)
+- 🌡️ Reads data from BMP280 (temperature, pressure, altitude)
 - 🔒 Uses **Elliptic Curve Diffie-Hellman (ECDH)** for secure key exchange
 - 🔐 Encrypts sensor payload with **AES-128 CBC**
 - 📡 Sends encrypted payload to a remote HTTP server
@@ -20,7 +20,7 @@ This is the ESP32-based client for securely transmitting environmental sensor da
 ## 🛠 Requirements
 
 - **ESP32 board**
-- **BPM280 sensor** (connected via I2C)
+- **BMP280 sensor** (connected via I2C)
 - Arduino libraries:
   - `WiFi.h`
   - `HTTPClient.h`
